@@ -1,0 +1,11 @@
+x=int(input("enter your first number:"))
+y=int(input("enter your second number:"))
+z=int(input("enter your third number:"))
+if x<y<z:
+    print("the numbers are in increasing order")
+elif x>y>z:
+    print("the numbers are in a decreasing order")
+else:
+    print("there is no particular order")
+
+
